@@ -5,25 +5,25 @@
   <groupId>io.crums</groupId>
   <artifactId>timechain</artifactId>
   <!-- keep in sync w/ {revision} property, or add "flatten" plugin -->
-  <version>0.1.0-ALPHA</version>
+  <version>0.1.0</version>
   
   
   <properties>
-    <revision>0.1.0-ALPHA</revision>
+    <revision>0.1.0</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>22</maven.compiler.release>
     <crums.util>1.0.4</crums.util>
     <crums.jsonimple>1.0.4</crums.jsonimple>
     <crums.mrkl>1.1.0</crums.mrkl>
-    <crums.stowkwik>1.0.2</crums.stowkwik>
-    <crums.sldg>0.6.0-ALPHA</crums.sldg>
+    <crums.stowkwik>[1.0.2,)</crums.stowkwik>
+    <crums.sldg>0.6.0</crums.sldg>
   </properties>
   
   <name>${project.groupId}::${project.artifactId}</name>
-  <url>https://crums.io/project/crums-pub</url>
+  <url>https://crums.io/project/timechain</url>
   
   <description>
-    Time chains and proofs of order of operations.
+    Timechains and proofs of order of operations.
   </description>
   
   
@@ -71,9 +71,9 @@
   </profiles>
 
   <scm>
-    <connection>scm:git:git://github.com/crums-io/crums-pub.git</connection>
-    <developerConnection>scm:git:ssh://github.com:crums-io/crums-pub.git</developerConnection>
-    <url>http://github.com/crums-io/crums-pub/tree/master</url>
+    <connection>scm:git:git://github.com/crums-io/timechain.git</connection>
+    <developerConnection>scm:git:ssh://github.com:crums-io/timechain.git</developerConnection>
+    <url>http://github.com/crums-io/timechain/tree/master</url>
   </scm>
   
   <distributionManagement>
@@ -183,7 +183,7 @@
             &nbsp;GNU Affero General Public License v3
             (<a href="https://www.gnu.org/licenses/agpl-3.0.txt">AGPL</a>)
             </td>
-            <td style="text-align: right;"><br/>&copy; 2020-2024 <a href="https://crums.io">crums.io</a> &nbsp;&nbsp;</td>
+            <td style="text-align: right;"><br/>&copy; 2020-2025 <a href="https://crums.io">crums.io</a> &nbsp;&nbsp;</td>
             </tr>
             </table>
             ]]>

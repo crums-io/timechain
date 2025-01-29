@@ -5,15 +5,14 @@
   <groupId>io.crums</groupId>
   <artifactId>ergd</artifactId>
   <!-- keep in sync w/ {revision} property, or add "flatten" plugin -->
-  <version>0.1.0-ALPHA</version>
+  <version>0.1.0</version>
   
   
   <properties>
-    <revision>0.1.0-ALPHA</revision>
+    <revision>0.1.0</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>22</maven.compiler.source>
     <maven.compiler.release>22</maven.compiler.release>
-    <crums.notary>0.1.0-ALPHA</crums.notary>
     <main.class>io.crums.tc.notary.server.main.Ergd</main.class>
   </properties>
   
@@ -45,9 +44,9 @@
   </developers>
   
   <scm>
-    <connection>scm:git:git://github.com/crums-io/crums-pub.git</connection>
-    <developerConnection>scm:git:ssh://github.com:crums-io/crums-pub.git</developerConnection>
-    <url>http://github.com/crums-io/crums-pub/tree/master</url>
+    <connection>scm:git:git://github.com/crums-io/timechain.git</connection>
+    <developerConnection>scm:git:ssh://github.com:crums-io/timechain.git</developerConnection>
+    <url>http://github.com/crums-io/timechain/tree/master</url>
   </scm>
   
   <profiles>
@@ -307,7 +306,7 @@
     <dependency>
       <groupId>io.crums</groupId>
       <artifactId>notary</artifactId>
-      <version>${crums.notary}</version>
+      <version>${revision}</version>
     </dependency>
     
     <!--

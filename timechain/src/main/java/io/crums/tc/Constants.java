@@ -18,7 +18,7 @@ public class Constants {
    * It also makes its way into picocli version strings.
    * </p>
    */
-  public final static String VERSION = "0.1.0-ALPHA";
+  public final static String VERSION = "0.1.0";
 
   /**
    * Default value "User-Agent" request headers take.
@@ -72,7 +72,7 @@ public class Constants {
     public final static String B64 = "b64";
     public final static String HEX = "hex";
     /**
-     * If {@code false} (defaultS to {@code true}), then the block proof
+     * If {@code false} (defaults to {@code true}), then the block proof
      * is not compressed, and contains more linkage information to previous
      * blocks.
      */

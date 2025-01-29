@@ -5,19 +5,18 @@
   <groupId>io.crums</groupId>
   <artifactId>notary</artifactId>
   <!-- keep in sync w/ {revision} property, or add "flatten" plugin -->
-  <version>0.1.0-ALPHA</version>
+  <version>0.1.0</version>
   
   
   <properties>
-    <revision>0.1.0-ALPHA</revision>
+    <revision>0.1.0</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>22</maven.compiler.release>
-    <crums.timechain>0.1.0-ALPHA</crums.timechain>
     <crums.stowkwik>[1.0.2,)</crums.stowkwik>
   </properties>
   
   <name>${project.groupId}::${project.artifactId}</name>
-  <url>https://crums.io/project/crums-pub</url>
+  <url>https://crums.io/project/timechain</url>
   
   <description>
     Notary for witnessing hashes and issuing witness receipts.
@@ -68,9 +67,9 @@
   </profiles>
 
   <scm>
-    <connection>scm:git:git://github.com/crums-io/crums-pub.git</connection>
-    <developerConnection>scm:git:ssh://github.com:crums-io/crums-pub.git</developerConnection>
-    <url>http://github.com/crums-io/crums-pub/tree/master</url>
+    <connection>scm:git:git://github.com/crums-io/timechain.git</connection>
+    <developerConnection>scm:git:ssh://github.com:crums-io/timechain.git</developerConnection>
+    <url>http://github.com/crums-io/timechain/tree/master</url>
   </scm>
   
   <distributionManagement>
@@ -180,7 +179,7 @@
             &nbsp;GNU Affero General Public License v3
             (<a href="https://www.gnu.org/licenses/agpl-3.0.txt">AGPL</a>)
             </td>
-            <td style="text-align: right;"><br/>&copy; 2020-2024 <a href="https://crums.io">crums.io</a> &nbsp;&nbsp;</td>
+            <td style="text-align: right;"><br/>&copy; 2020-2025 <a href="https://crums.io">crums.io</a> &nbsp;&nbsp;</td>
             </tr>
             </table>
             ]]>
@@ -225,7 +224,7 @@
     <dependency>
       <groupId>io.crums</groupId>
       <artifactId>timechain</artifactId>
-      <version>${crums.timechain}</version>
+      <version>${revision}</version>
     </dependency>
     
     
