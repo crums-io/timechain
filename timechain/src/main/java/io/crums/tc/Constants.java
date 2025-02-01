@@ -18,7 +18,7 @@ public class Constants {
    * It also makes its way into picocli version strings.
    * </p>
    */
-  public final static String VERSION = "0.1.0";
+  public final static String VERSION = "0.2.0";
 
   /**
    * Default value "User-Agent" request headers take.

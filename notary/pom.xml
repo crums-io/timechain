@@ -5,11 +5,11 @@
   <groupId>io.crums</groupId>
   <artifactId>notary</artifactId>
   <!-- keep in sync w/ {revision} property, or add "flatten" plugin -->
-  <version>0.1.0</version>
+  <version>0.2.0-SNAPSHOT</version>
   
   
   <properties>
-    <revision>0.1.0</revision>
+    <revision>0.2.0-SNAPSHOT</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>22</maven.compiler.release>
     <crums.stowkwik>[1.0.2,)</crums.stowkwik>
