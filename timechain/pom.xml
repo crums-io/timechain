@@ -12,8 +12,8 @@
     <revision>0.2.0-SNAPSHOT</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>22</maven.compiler.release>
-    <crums.util>1.0.4</crums.util>
-    <crums.jsonimple>1.0.4</crums.jsonimple>
+    <crums.util>[1.0.4,)</crums.util>
+    <crums.jsonimple>[1.0.4,)</crums.jsonimple>
     <crums.mrkl>1.1.0</crums.mrkl>
     <crums.stowkwik>[1.0.2,)</crums.stowkwik>
     <crums.sldg>0.7.0-SNAPSHOT</crums.sldg>
