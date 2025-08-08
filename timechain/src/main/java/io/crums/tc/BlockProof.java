@@ -6,8 +6,6 @@ package io.crums.tc;
 
 import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -16,8 +14,6 @@ import io.crums.sldg.HashConflictException;
 import io.crums.sldg.MemoPathPack;
 import io.crums.sldg.Path;
 import io.crums.sldg.PathPack;
-import io.crums.sldg.Row;
-import io.crums.sldg.SkipLedger;
 
 /**
  * Proof that a block belongs in a chain. This uses the skip ledger
@@ -83,7 +79,7 @@ public class BlockProof implements Serial {
     if (!chainState.hasRow(bn))
       return Optional.empty();
     if (isCompressed())
-      return Optional.empty();
+      return Optional.of(this);
     Path abbreviatedState;
     if (withLineage)
       abbreviatedState = chainState.skipPath(bn).get();

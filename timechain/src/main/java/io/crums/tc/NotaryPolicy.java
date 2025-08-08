@@ -166,7 +166,7 @@ public class NotaryPolicy {
    * the hash.
    * <p>
    * Note, <em>logical block</em> here is just a block no.: there may
-   * or may not exist any witnesses hashes for that block no.
+   * or may not exist any witnessed hashes for that block no.
    * </p>
    * 
    * @return &ge; 0 (zero means no blocks are searched)
