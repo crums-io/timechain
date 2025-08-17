@@ -273,6 +273,8 @@ public class TimeChain extends SkipLedger implements Channel {
   public String hashAlgo() {
     return Constants.HASH_ALGO;
   }
+  
+  
   /**
    * Not supported.
    * 
@@ -284,8 +286,25 @@ public class TimeChain extends SkipLedger implements Channel {
     throw new UnsupportedOperationException();
   }
   
-  
-  
+  /**
+   * Not supported.
+   */
+  @Override
+  protected void writeRowsImpl(long startRn, ByteBuffer inputHashes)
+      throws UnsupportedOperationException {
+    throw new UnsupportedOperationException();
+  }
+
+  /**
+   * Not supported.
+   */
+  @Override
+  public long commitRows(long startRn, ByteBuffer inputHashes)
+      throws UnsupportedOperationException {
+    throw new UnsupportedOperationException();
+  }
+
+
   /**
    * Records a new block and returns the number of empty blocks
    * appended to the end of the end of the chain before adding
