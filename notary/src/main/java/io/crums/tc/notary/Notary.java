@@ -15,7 +15,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.Channel;
 import java.util.Objects;
 
-import io.crums.io.FileUtils;
+import io.crums.util.io.FileUtils;
 import io.crums.tc.BlockProof;
 import io.crums.tc.ChainParams;
 import io.crums.tc.Crum;

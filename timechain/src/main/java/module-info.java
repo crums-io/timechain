@@ -5,7 +5,8 @@ module io.crums.tc {
   requires transitive io.crums.sldg.base;
   
   
-  requires io.crums.io.store;
+  requires io.crums.util.io.store;
+  requires io.crums.util.tree;
   requires io.crums.stowkwik;
   requires java.net.http;
   

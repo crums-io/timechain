@@ -226,8 +226,14 @@
       <artifactId>timechain</artifactId>
       <version>${revision}</version>
     </dependency>
-    
-    
+
+    <dependency>
+      <groupId>io.crums</groupId>
+      <artifactId>dir-traverse</artifactId>
+      <version>1.0.5-SNAPSHOT</version>
+    </dependency>
+
+
     <dependency>
       <groupId>io.crums</groupId>
       <artifactId>stowkwik</artifactId>

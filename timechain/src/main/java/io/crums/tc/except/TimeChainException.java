@@ -3,7 +3,7 @@
  */
 package io.crums.tc.except;
 
-import io.crums.util.FactoryException;
+import io.crums.util.api.FactoryException;
 
 /**
  * Base of the time chain exception hierarchy.

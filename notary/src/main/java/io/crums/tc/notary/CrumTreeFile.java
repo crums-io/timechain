@@ -14,13 +14,13 @@ import java.nio.channels.FileChannel;
 import java.util.List;
 import java.util.Objects;
 
-import io.crums.io.Opening;
-import io.crums.io.channels.ChannelUtils;
-import io.crums.io.store.table.SortedTable;
-import io.crums.io.store.table.order.RowOrder;
+import io.crums.util.api.Opening;
+import io.crums.util.io.channels.ChannelUtils;
+import io.crums.util.io.store.table.SortedTable;
+import io.crums.util.io.store.table.order.RowOrder;
 import io.crums.tc.Crum;
 import io.crums.tc.notary.except.NotaryException;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 
 /**
  * 

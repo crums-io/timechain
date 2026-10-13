@@ -35,7 +35,7 @@ import io.crums.tc.json.CrumtrailParser;
 import io.crums.tc.json.NotaryPolicyParser;
 import io.crums.tc.json.ReceiptParser;
 import io.crums.tc.notary.Notary;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 import io.crums.util.json.simple.JSONObject;
 
 

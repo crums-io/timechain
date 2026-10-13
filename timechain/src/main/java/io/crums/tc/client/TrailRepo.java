@@ -17,7 +17,7 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-import io.crums.io.FileUtils;
+import io.crums.util.io.FileUtils;
 import io.crums.sldg.HashConflictException;
 import io.crums.sldg.Path;
 import io.crums.stowkwik.io.HexPathTree;

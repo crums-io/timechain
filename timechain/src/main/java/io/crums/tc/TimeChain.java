@@ -16,14 +16,14 @@ import java.nio.channels.Channel;
 import java.nio.channels.FileChannel;
 import java.util.Objects;
 
-import io.crums.io.Opening;
-import io.crums.io.channels.ChannelUtils;
+import io.crums.util.api.Opening;
+import io.crums.util.io.channels.ChannelUtils;
 import io.crums.sldg.LevelsPointer;
 import io.crums.sldg.Path;
 import io.crums.sldg.Row;
 import io.crums.sldg.SkipLedger;
 import io.crums.tc.except.TimeChainException;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 import io.crums.util.Strings;
 import io.crums.util.TaskStack;
 

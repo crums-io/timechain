@@ -3,8 +3,8 @@
  */
 package io.crums.tc;
 
-import io.crums.util.hash.Digest;
-import io.crums.util.hash.Digests;
+import io.crums.util.api.Digest;
+import io.crums.util.api.Digests;
 
 /**
  * 

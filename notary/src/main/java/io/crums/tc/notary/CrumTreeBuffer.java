@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Objects;
 
 import io.crums.tc.Crum;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 
 /**
  * In-memory (or memory-mapped) {@linkplain CrumMerkleTree} implementation.

@@ -12,7 +12,7 @@ import java.nio.channels.Channels;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import io.crums.io.buffer.BufferUtils;
+import io.crums.util.io.buffer.BufferUtils;
 import io.crums.util.TaskStack;
 
 /**

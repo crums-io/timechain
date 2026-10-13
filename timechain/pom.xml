@@ -240,7 +240,13 @@
       <artifactId>table-io</artifactId>
       <version>${crums.util}</version>
     </dependency>
-    
+
+    <dependency>
+      <groupId>io.crums</groupId>
+      <artifactId>dir-traverse</artifactId>
+      <version>1.0.5-SNAPSHOT</version>
+    </dependency>
+
     <dependency>
       <groupId>io.crums</groupId>
       <artifactId>jsonimple</artifactId>

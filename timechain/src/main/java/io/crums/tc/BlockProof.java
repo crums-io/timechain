@@ -9,7 +9,7 @@ import java.nio.ByteBuffer;
 import java.util.Objects;
 import java.util.Optional;
 
-import io.crums.io.Serial;
+import io.crums.util.api.Serial;
 import io.crums.sldg.HashConflictException;
 import io.crums.sldg.MemoPathPack;
 import io.crums.sldg.Path;

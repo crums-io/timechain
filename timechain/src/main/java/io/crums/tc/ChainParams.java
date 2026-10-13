@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import io.crums.io.Serial;
+import io.crums.util.api.Serial;
 
 /**
  * Chain parameter settings. Presently contains only 2 pieces of

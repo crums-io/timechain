@@ -22,15 +22,15 @@ import java.util.Optional;
 import java.util.Properties;
 import java.util.TreeMap;
 
-import io.crums.io.DirectoryRemover;
-import io.crums.io.Opening;
+import io.crums.util.tree.fs.DirectoryRemover;
+import io.crums.util.api.Opening;
 import io.crums.tc.Crum;
 import io.crums.tc.Crumtrail;
 import io.crums.tc.NotaryPolicy;
 import io.crums.tc.except.RepoException;
 import io.crums.tc.json.NotaryPolicyParser;
 import io.crums.util.IntegralStrings;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 import io.crums.util.RandomId;
 import io.crums.util.TidyProperties;
 

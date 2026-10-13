@@ -8,7 +8,7 @@ import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 import java.security.MessageDigest;
 
-import io.crums.io.Serial;
+import io.crums.util.api.Serial;
 
 
 /**

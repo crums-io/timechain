@@ -15,8 +15,8 @@ import java.nio.channels.ReadableByteChannel;
 import java.util.Arrays;
 import java.util.Objects;
 
-import io.crums.io.Serial;
-import io.crums.io.channels.ChannelUtils;
+import io.crums.util.api.Serial;
+import io.crums.util.io.channels.ChannelUtils;
 import io.crums.tc.except.MerkleProofException;
 import io.crums.util.mrkl.Proof;
 import io.crums.util.mrkl.Tree;

@@ -18,7 +18,7 @@ import java.util.Base64;
 import java.util.Date;
 import java.util.Optional;
 
-import io.crums.io.Opening;
+import io.crums.util.api.Opening;
 import io.crums.sldg.HashConflictException;
 import io.crums.tc.Constants;
 import io.crums.tc.Crumtrail;
@@ -31,7 +31,7 @@ import io.crums.tc.except.NetworkException;
 import io.crums.tc.except.NetworkException;
 import io.crums.tc.json.CrumtrailParser;
 import io.crums.util.IntegralStrings;
-import io.crums.util.Base64_32;
+import io.crums.util.api.Base64_32;
 import io.crums.util.Strings;
 import io.crums.util.TaskStack;
 import io.crums.util.json.JsonPrinter;

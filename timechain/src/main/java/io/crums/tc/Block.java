@@ -9,7 +9,7 @@ import static io.crums.tc.Constants.HASH_WIDTH;
 import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 
-import io.crums.io.Serial;
+import io.crums.util.api.Serial;
 
 /**
  * Serial (on-disk) representation of a time chain block.

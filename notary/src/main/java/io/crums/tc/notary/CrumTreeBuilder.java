@@ -12,7 +12,7 @@ import java.util.Objects;
 import java.util.TreeMap;
 import java.util.stream.Stream;
 
-import io.crums.io.channels.ChannelUtils;
+import io.crums.util.io.channels.ChannelUtils;
 import io.crums.tc.ChainParams;
 import io.crums.tc.Constants;
 import io.crums.tc.Crum;

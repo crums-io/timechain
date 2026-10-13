@@ -18,8 +18,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import io.crums.io.DirectoryRemover;
-import io.crums.io.FileUtils;
+import io.crums.util.tree.fs.DirectoryRemover;
+import io.crums.util.io.FileUtils;
 import io.crums.tc.BlockProof;
 import io.crums.tc.CargoProof;
 import io.crums.tc.ChainParams;
@@ -31,7 +31,7 @@ import io.crums.tc.TimeBinner;
 import io.crums.tc.TimeChain;
 import io.crums.tc.except.TimeChainException;
 import io.crums.tc.notary.except.NotaryException;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 import io.crums.util.Strings;
 
 /**
@@ -323,6 +323,12 @@ public class CargoChain implements Channel {
     
     // diff < -1
     
+    // TODO:
+    // REVIEW: why does this even matter? It should only matter if
+    // -diff is large (and increasing); o.w. all these assertion errors
+    // are wrong! They should be ordinary Runtime exceptions (if at all), not
+    // VM-ending errors! 
+    // 
     var e = new AssertionError(
         "tail block [" + (crumBlockNo - diff) + "] ahead of " +
         crum + " block [" + crumBlockNo + "] by " + -diff + " blocks");

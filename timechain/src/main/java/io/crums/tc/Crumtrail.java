@@ -8,9 +8,9 @@ import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 import java.util.Objects;
 
-import io.crums.io.Serial;
-import io.crums.io.SerialFormatException;
-import io.crums.io.buffer.BufferUtils;
+import io.crums.util.api.Serial;
+import io.crums.util.api.SerialFormatException;
+import io.crums.util.io.buffer.BufferUtils;
 import io.crums.sldg.HashConflictException;
 import io.crums.sldg.Path;
 import io.crums.tc.except.BlockNotFoundException;

@@ -14,9 +14,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.Objects;
 
-import io.crums.io.FileUtils;
-import io.crums.io.Opening;
-import io.crums.io.channels.ChannelUtils;
+import io.crums.util.io.FileUtils;
+import io.crums.util.api.Opening;
+import io.crums.util.io.channels.ChannelUtils;
 import io.crums.stowkwik.io.HexPathTree;
 import io.crums.tc.CargoProof;
 import io.crums.tc.ChainParams;

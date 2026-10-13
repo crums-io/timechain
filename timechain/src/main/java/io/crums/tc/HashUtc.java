@@ -11,7 +11,7 @@ import java.nio.ByteBuffer;
 import java.util.Comparator;
 import java.util.Date;
 
-import io.crums.util.Base64_32;
+import io.crums.util.api.Base64_32;
 import io.crums.util.IntegralStrings;
 
 /**

@@ -13,7 +13,7 @@ import io.crums.tc.CargoProof;
 import io.crums.tc.Constants;
 import io.crums.tc.Crum;
 import io.crums.tc.notary.except.CrumNotFoundException;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 import io.crums.util.mrkl.Tree;
 
 /**

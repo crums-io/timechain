@@ -26,7 +26,7 @@ import io.crums.tc.notary.CargoBlock;
 import io.crums.tc.notary.CargoChain;
 import io.crums.tc.notary.Notary;
 import io.crums.testing.IoTestCase;
-import io.crums.util.Lists;
+import io.crums.util.collections.Lists;
 import io.crums.util.json.JsonPrinter;
 
 import org.junit.jupiter.api.Test;
@@ -34,6 +34,10 @@ import org.junit.jupiter.api.Test;
 /**
  * Also tests the "lock-free", file-based concurrency model {@linkplain CargoChain}
  * and {@linkplain CargoBlock}s implement.
+ * <p>
+ * <em>Some tests may fail due to timing issues, particularly if the machine is
+ * under other load.</em>
+ * </p>
  */
 public class NotaryDTest extends IoTestCase {
   
@@ -75,7 +79,7 @@ public class NotaryDTest extends IoTestCase {
 
     
     final Object label = new Object() { };
-    final TimeBinner binner = TimeBinner.MILLIS_64;
+    final TimeBinner binner = TimeBinner.EIGTH_SEC;
     final long startUtc = System.currentTimeMillis();
     final int blocksRetained = 100;
     final Random random = new Random(210L);
@@ -134,7 +138,7 @@ public class NotaryDTest extends IoTestCase {
     long lastBlockUtcEnd =
         binner.binTime(lastUtc) + binner.duration();
     
-    final long commitSlack = 3 * binner.duration();
+    final long commitSlack = 100;
     
     final long targetCommitUtc = lastBlockUtcEnd + commitSlack;
     
@@ -216,7 +220,7 @@ public class NotaryDTest extends IoTestCase {
 
     
     final Object label = new Object() { };
-    final TimeBinner binner = TimeBinner.MILLIS_64;
+    final TimeBinner binner = TimeBinner.EIGTH_SEC;
     final long startUtc = System.currentTimeMillis();
     final int blocksRetained = 100;
     final Random random = new Random(210L);
